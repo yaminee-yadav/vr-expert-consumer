@@ -1,0 +1,9 @@
+2022-03-18T13:48:53+00:00 CRITICAL Uncaught Exception: Invalid product. in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:167
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(137): WC_Data_Store->read(Object(WC_Product))
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php(434): WC_Product->__construct(29202)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#5 /home/customer/www/vr-expert-re in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php on line 167
+

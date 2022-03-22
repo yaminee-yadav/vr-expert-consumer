@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.258" height="25" viewBox="0 0 30.258 25">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: Poppins-Regular, Poppins;
+      }
+    </style>
+  </defs>
+  <g id="Group_1470" data-name="Group 1470" transform="translate(-325 -790)">
+    <g id="Group_1469" data-name="Group 1469" transform="translate(336.791 795)">
+      <rect id="Rectangle_273" data-name="Rectangle 273" class="cls-1" width="12.082" height="1.59" rx="0.795" transform="translate(5.432 10.597)"/>
+      <circle id="Ellipse_64" data-name="Ellipse 64" class="cls-1" cx="1.59" cy="1.59" r="1.59" transform="translate(4.478 11.55)"/>
+      <circle id="Ellipse_65" data-name="Ellipse 65" class="cls-1" cx="1.59" cy="1.59" r="1.59" transform="translate(14.971 11.55)"/>
+      <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="12.082" height="1.59" rx="0.795" transform="translate(5.379 0) rotate(82)"/>
+      <rect id="Rectangle_275" data-name="Rectangle 275" class="cls-1" width="5.405" height="1.59" rx="0.795" transform="translate(0 0.095) rotate(-1)"/>
+      <path id="Path_78" data-name="Path 78" class="cls-1" d="M14462-12222.029h13.035l-1.9,7.76h-10.447Z" transform="translate(-14456.573 12223.714)"/>
+    </g>
+    <text id="_" data-name="+" class="cls-2" transform="translate(325 809)"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>

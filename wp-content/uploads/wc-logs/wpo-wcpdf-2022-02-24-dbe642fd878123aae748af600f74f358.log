@@ -1,0 +1,16 @@
+2022-02-24T09:22:59+00:00 INFO Template setting migrated from /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2022-02-24T09:25:23+00:00 CRITICAL Table 'dbi2d255bh8cay.wp_wcpdf_invoice_number' doesn't exist
+2022-02-24T12:01:16+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:01:16+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:09:44+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:09:44+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:39:11+00:00 CRITICAL Fatal error: syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:39:41+00:00 CRITICAL Fatal error: syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:41:28+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:41:29+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:41:58+00:00 CRITICAL Fatal error: syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T12:42:59+00:00 CRITICAL Fatal error: syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T14:43:23+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T14:43:23+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T14:45:50+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)
+2022-02-24T14:45:50+00:00 CRITICAL syntax error, unexpected end of file (/home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/pdf/Custom/invoice.php:233)

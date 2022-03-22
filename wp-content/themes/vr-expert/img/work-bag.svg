@@ -1,0 +1,50 @@
+<svg id="Group_590" data-name="Group 590" xmlns="http://www.w3.org/2000/svg" width="17.02" height="14.283" viewBox="0 0 17.02 14.283">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #818cc4;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #818cc4;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #f4f4f4;
+      }
+
+      .cls-5, .cls-7 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: #f4f4f4;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_1390" data-name="Rectangle 1390" class="cls-1" transform="translate(0.946 3.686)">
+    <rect class="cls-5" width="15.129" height="10.597"/>
+    <rect class="cls-6" x="0.5" y="0.5" width="14.129" height="9.597"/>
+  </g>
+  <g id="Union_157" data-name="Union 157" class="cls-2" transform="translate(7.328 6.599)">
+    <path class="cls-5" d="M 1.182336091995239 2.917219638824463 L 0.4999958872795105 2.119458436965942 L 0.4999958872795105 0.5000047087669373 L 1.8643559217453 0.5000047087669373 L 1.8643559217453 2.1195228099823 L 1.182336091995239 2.917219638824463 Z"/>
+    <path class="cls-7" d="M 1.3643559217453 1.304124712944031 L 1.3643559217453 1.000004768371582 L 0.9999958872795105 1.000004768371582 L 0.9999958872795105 1.304124712944031 L 1.3643559217453 1.304124712944031 M 1.182405829429626 3.68654465675354 L -4.125289706280455e-06 2.304124593734741 L 2.364355802536011 2.304124593734741 L 1.182405829429626 3.68654465675354 Z M 2.364355802536011 2.304124593734741 L -4.125289706280455e-06 2.304124593734741 L -4.125289706280455e-06 4.712562713393709e-06 L 2.364355802536011 4.712562713393709e-06 L 2.364355802536011 2.304124593734741 Z"/>
+  </g>
+  <g id="Rectangle_1393" data-name="Rectangle 1393" class="cls-3" transform="translate(5.673)">
+    <rect class="cls-5" width="5.201" height="3.225"/>
+    <rect class="cls-6" x="0.5" y="0.5" width="4.201" height="2.225"/>
+  </g>
+  <line id="Line_12" data-name="Line 12" class="cls-4" x2="15.129" transform="translate(0.946 7.372)"/>
+  <g id="Rectangle_1391" data-name="Rectangle 1391" class="cls-1" transform="translate(0 2.304)">
+    <rect class="cls-5" width="17.02" height="5.068"/>
+    <rect class="cls-6" x="0.5" y="0.5" width="16.02" height="4.068"/>
+  </g>
+</svg>

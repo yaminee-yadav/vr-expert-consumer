@@ -1,0 +1,186 @@
+2022-03-11T05:49:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(77): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T05:49:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(77): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T05:49:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(77): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T05:51:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(77): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:11:51+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77
+
+2022-03-11T06:11:52+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77
+
+2022-03-11T06:13:35+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77
+
+2022-03-11T06:13:49+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 77
+
+2022-03-11T06:13:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:15:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:15:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:15:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:16:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:29:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:30:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 79 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(79): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T06:31:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 62 and exactly 1 expected in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php:1290
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(62): get_post_type_archive_link()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php(19): get_breadcrumb()
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-includes/link-template.php on line 1290
+
+2022-03-11T10:32:21+00:00 CRITICAL syntax error, unexpected '}' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 354
+
+2022-03-11T11:15:21+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (12-03-2022 - 15-03-2022) at position 11 (-): Unexpected character in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:344
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php(344): DateTime->__construct('12-03-2022 - 15...')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(30514)
+#4 /home/customer/www/vr-expert-rental.com/public_htm in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 344
+
+2022-03-11T11:17:11+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:346
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php(346): DateTime->__construct('1')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(30514)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/include in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 346
+
+2022-03-11T11:17:15+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:346
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php(346): DateTime->__construct('1')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(30514)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/include in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 346
+
+2022-03-11T11:28:47+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 349
+
+2022-03-11T11:29:43+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 349
+
+2022-03-11T11:29:47+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 349
+
+2022-03-11T12:07:31+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 338
+
+2022-03-11T12:07:34+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 338
+
+2022-03-11T12:14:01+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 375
+
+2022-03-11T12:14:06+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 375
+
+2022-03-11T12:14:34+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 375
+
+2022-03-11T12:14:39+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 375
+
+2022-03-11T12:14:55+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 443
+
+2022-03-11T12:15:02+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 443
+
+2022-03-11T12:15:04+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 443
+
+2022-03-11T13:19:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+

@@ -1,0 +1,199 @@
+2022-03-08T09:37:52+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:175
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 175
+
+2022-03-08T09:38:05+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 473
+
+2022-03-08T09:39:38+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:175
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 175
+
+2022-03-08T09:39:42+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:175
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 175
+
+2022-03-08T09:40:05+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:175
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 175
+
+2022-03-08T09:45:43+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:176
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 176
+
+2022-03-08T09:57:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php:177
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 177
+
+2022-03-08T12:23:55+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:24:27+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+
+2022-03-08T12:24:31+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:24:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+
+2022-03-08T12:26:02+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:27:34+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:32:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+
+2022-03-08T12:35:06+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+
+2022-03-08T12:52:02+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:52:14+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:52:20+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:53:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:53:58+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T12:54:08+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:267
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1800): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 267
+
+2022-03-08T13:26:39+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2913
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): my_custom_order_manipulation_function(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(313): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/includes/template.php(1395): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 /home/customer/www/vr-expert-rental.com/publ in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2913
+
+2022-03-08T14:22:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+

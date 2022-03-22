@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1017.001" height="55.7" viewBox="0 0 1017.001 55.7">
+  <defs>
+    <filter id="Ellipse_397" x="693.088" y="0.343" width="56.334" height="55.358" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_550" x="960.53" y="0" width="56.471" height="55.491" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_600" data-name="Group 600" transform="translate(0 6)">
+    <text id="Uitgebreid_assortiment" data-name="Uitgebreid assortiment" transform="translate(269.061 10.521)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-69.498" y="13">Uitgebreid assortiment</tspan></text>
+    <text id="Advies_van_Experts" data-name="Advies van Experts" transform="translate(0 10.521)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-56.382" y="13">Advies van Experts</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, -6)" filter="url(#Ellipse_397)">
+      <ellipse id="Ellipse_397-2" data-name="Ellipse 397" cx="19.167" cy="18.679" rx="19.167" ry="18.679" transform="translate(702.09 6.34)" fill="#fff"/>
+    </g>
+    <text id="Zakelijke_services" data-name="Zakelijke services" transform="translate(526.619 10.521)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-52.536" y="13">Zakelijke services</tspan></text>
+    <g id="Group_590" data-name="Group 590" transform="translate(712.745 11.88)">
+      <g id="Rectangle_1390" data-name="Rectangle 1390" transform="translate(0.946 3.686)" fill="#818cc4" stroke="#818cc4" stroke-width="1">
+        <rect width="15.129" height="10.597" stroke="none"/>
+        <rect x="0.5" y="0.5" width="14.129" height="9.597" fill="none"/>
+      </g>
+      <g id="Union_157" data-name="Union 157" transform="translate(7.328 6.599)" fill="#818cc4">
+        <path d="M 1.182336091995239 2.917219638824463 L 0.4999958872795105 2.119458436965942 L 0.4999958872795105 0.5000047087669373 L 1.8643559217453 0.5000047087669373 L 1.8643559217453 2.1195228099823 L 1.182336091995239 2.917219638824463 Z" stroke="none"/>
+        <path d="M 1.3643559217453 1.304124712944031 L 1.3643559217453 1.000004768371582 L 0.9999958872795105 1.000004768371582 L 0.9999958872795105 1.304124712944031 L 1.3643559217453 1.304124712944031 M 1.182405829429626 3.68654465675354 L -4.125289706280455e-06 2.304124593734741 L 2.364355802536011 2.304124593734741 L 1.182405829429626 3.68654465675354 Z M 2.364355802536011 2.304124593734741 L -4.125289706280455e-06 2.304124593734741 L -4.125289706280455e-06 4.712562713393709e-06 L 2.364355802536011 4.712562713393709e-06 L 2.364355802536011 2.304124593734741 Z" stroke="none" fill="#f4f4f4"/>
+      </g>
+      <g id="Rectangle_1393" data-name="Rectangle 1393" transform="translate(5.673)" fill="#fff" stroke="#818cc4" stroke-width="1">
+        <rect width="5.201" height="3.225" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4.201" height="2.225" fill="none"/>
+      </g>
+      <line id="Line_12" data-name="Line 12" x2="15.129" transform="translate(0.946 7.372)" fill="none" stroke="#f4f4f4" stroke-width="1"/>
+      <g id="Rectangle_1391" data-name="Rectangle 1391" transform="translate(0 2.304)" fill="#818cc4" stroke="#818cc4" stroke-width="1">
+        <rect width="17.02" height="5.068" stroke="none"/>
+        <rect x="0.5" y="0.5" width="16.02" height="4.068" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, -6)" filter="url(#Path_550)">
+      <path id="Path_550-2" data-name="Path 550" d="M19.236,0A19,19,0,0,1,38.471,18.746,19,19,0,0,1,19.236,37.491,19,19,0,0,1,0,18.746,19,19,0,0,1,19.236,0Z" transform="translate(969.53 6)" fill="#fff"/>
+    </g>
+    <text id="Snelle_levertijden" data-name="Snelle levertijden" transform="translate(809.832 10.521)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-51.462" y="13">Snelle levertijden</tspan></text>
+    <g id="Group_591" data-name="Group 591" transform="translate(977.943 12.832)">
+      <g id="Path_423" data-name="Path 423" transform="translate(13.871 2.394)" fill="#818cc4">
+        <path d="M 6.749456405639648 7.120139122009277 L 0.4999963045120239 7.120139122009277 L 0.4999963045120239 0.4999993145465851 L 4.935324668884277 0.4999993145465851 L 6.749456405639648 2.530014753341675 L 6.749456405639648 7.120139122009277 Z" stroke="none"/>
+        <path d="M 0.9999961853027344 0.9999995231628418 L 0.9999961853027344 6.620139122009277 L 6.249456405639648 6.620139122009277 L 6.249456405639648 2.720880031585693 L 4.711584091186523 0.9999995231628418 L 0.9999961853027344 0.9999995231628418 M -3.814697265625e-06 -4.76837158203125e-07 L 5.159056186676025 -4.76837158203125e-07 L 7.249456405639648 2.339159488677979 L 7.249456405639648 7.620139122009277 L -3.814697265625e-06 7.620139122009277 L -3.814697265625e-06 -4.76837158203125e-07 Z" stroke="none" fill="#818cc4"/>
+      </g>
+      <g id="Path_424" data-name="Path 424" transform="translate(3.327)" fill="#818cc4">
+        <path d="M 10.26573657989502 9.514643669128418 L 0.4999968707561493 9.514643669128418 L 0.4999968707561493 2.189493656158447 L 0.4999968707561493 0.5000037550926208 L 3.104326963424683 0.5000037550926208 L 10.26573657989502 0.5000037550926208 L 10.26573657989502 9.514643669128418 Z" stroke="none"/>
+        <path d="M 0.9999971389770508 1.000003814697266 L 0.9999971389770508 9.014643669128418 L 9.76573657989502 9.014643669128418 L 9.76573657989502 1.000003814697266 L 0.9999971389770508 1.000003814697266 M -2.86102294921875e-06 3.814697265625e-06 L 10.76573657989502 3.814697265625e-06 L 10.76573657989502 10.01464366912842 L -2.86102294921875e-06 10.01464366912842 L -2.86102294921875e-06 3.814697265625e-06 Z" stroke="none" fill="#818cc4"/>
+      </g>
+      <g id="Ellipse_374" data-name="Ellipse 374" transform="translate(5.181 8.665)" fill="#fff" stroke="#818cc4" stroke-width="1">
+        <ellipse cx="1.622" cy="1.581" rx="1.622" ry="1.581" stroke="none"/>
+        <ellipse cx="1.622" cy="1.581" rx="1.122" ry="1.081" fill="none"/>
+      </g>
+      <g id="Ellipse_375" data-name="Ellipse 375" transform="translate(15.84 8.665)" fill="#fff" stroke="#818cc4" stroke-width="1">
+        <ellipse cx="1.622" cy="1.581" rx="1.622" ry="1.581" stroke="none"/>
+        <ellipse cx="1.622" cy="1.581" rx="1.122" ry="1.081" fill="none"/>
+      </g>
+      <g id="Path_425" data-name="Path 425" transform="translate(15.25 3.403)" fill="#fff">
+        <path d="M 4.615295886993408 2.490761995315552 L 0.4999960362911224 2.490761995315552 L 0.4999960362911224 0.5000020861625671 L 3.351750612258911 0.5000020861625671 L 4.615295886993408 2.012417316436768 L 4.615295886993408 2.490761995315552 Z" stroke="none"/>
+        <path d="M 0.9999961853027344 1.000002026557922 L 0.9999961853027344 1.990762114524841 L 3.945674419403076 1.990762114524841 L 3.117945194244385 1.000002026557922 L 0.9999961853027344 1.000002026557922 M -3.814697265625e-06 2.145767211914062e-06 L 3.585556030273438 2.145767211914062e-06 L 5.115295886993408 1.831042051315308 L 5.115295886993408 2.990761995315552 L -3.814697265625e-06 2.990761995315552 L -3.814697265625e-06 2.145767211914062e-06 Z" stroke="none" fill="#fff"/>
+      </g>
+      <g id="Rectangle_1425" data-name="Rectangle 1425" transform="translate(19.813 8.621)" fill="#818cc4" stroke="#818cc4" stroke-width="1">
+        <rect width="1.91" height="1.396" stroke="none"/>
+        <rect x="0.5" y="0.5" width="0.91" height="0.396" fill="none"/>
+      </g>
+      <line id="Line_13" data-name="Line 13" x2="7.639" transform="translate(1.91 2.216)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <line id="Line_14" data-name="Line 14" x2="7.639" transform="translate(1.071 3.845)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <line id="Line_15" data-name="Line 15" x2="7.639" transform="translate(0 5.849)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <line id="Line_16" data-name="Line 16" x1="8.594" transform="translate(0.955 3.004)" fill="none" stroke="#818cc4" stroke-width="1"/>
+      <line id="Line_17" data-name="Line 17" x2="7.161" transform="translate(1.91 5.007)" fill="none" stroke="#818cc4" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
