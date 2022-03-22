@@ -1,0 +1,2 @@
+2022-02-24T12:35:04+00:00 INFO Template setting migrated from /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2022-02-24T12:36:36+00:00 CRITICAL Table 'dbi2d255bh8cay.wp_2_wcpdf_invoice_number' doesn't exist

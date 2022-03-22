@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.449" height="32.445" viewBox="0 0 34.449 32.445">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f39562;
+      }
+    </style>
+  </defs>
+  <g id="Group_508" data-name="Group 508" transform="translate(-581.372 -381.531)">
+    <ellipse id="Ellipse_390" data-name="Ellipse 390" class="cls-1" cx="6.535" cy="6.535" rx="6.535" ry="6.535" transform="translate(585.474 387.297)"/>
+    <path id="Subtraction_101" data-name="Subtraction 101" class="cls-1" d="M20.778,12.375H0V6A6.007,6.007,0,0,1,6,0h8.778a6.007,6.007,0,0,1,6,6v6.374Z" transform="translate(581.372 401.601)"/>
+    <path id="Union_167" data-name="Union 167" class="cls-1" d="M.05,8.788V0H16.438V9.819H2.921L0,11.532Z" transform="translate(599.383 381.531)"/>
+  </g>
+</svg>

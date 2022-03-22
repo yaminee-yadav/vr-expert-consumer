@@ -1,0 +1,22 @@
+2022-03-04T14:01:31+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2726
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 2726
+
+2022-03-04T14:48:45+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2726
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 2726
+

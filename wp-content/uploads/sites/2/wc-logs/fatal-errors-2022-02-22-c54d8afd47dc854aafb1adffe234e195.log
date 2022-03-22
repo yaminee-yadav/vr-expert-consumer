@@ -1,0 +1,51 @@
+2022-02-22T07:35:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on float in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-product-functions.php:990
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1993): wc_get_price_including_tax(206.61157)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1699): WC_Cart->get_product_price(206.61157)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): add_to_cart_simple_product('')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-product-functions.php in Zeile 990
+
+2022-02-22T12:35:24+00:00 CRITICAL Can't use function return value in write context in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2399
+
+2022-02-22T12:35:24+00:00 CRITICAL Can't use function return value in write context in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2399
+
+2022-02-22T12:35:50+00:00 CRITICAL Can't use function return value in write context in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2399
+
+2022-02-22T12:43:50+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2421
+
+2022-02-22T12:43:55+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2421
+
+2022-02-22T12:43:56+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2421
+
+2022-02-22T12:45:51+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 930
+
+2022-02-22T12:45:58+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2417
+
+2022-02-22T12:45:58+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2417
+
+2022-02-22T12:46:00+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php in Zeile 2417
+
+2022-02-22T14:14:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_total() in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart-totals.php:409
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2115): wc_get_template('cart/cart-total...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): woocommerce_cart_totals('')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart.php(438): do_action('woocommerce_car...')
+#6 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart-totals.php in Zeile 409
+
+2022-02-22T14:15:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_total() in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart-totals.php:409
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2115): wc_get_template('cart/cart-total...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): woocommerce_cart_totals('')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart.php(438): do_action('woocommerce_car...')
+#6 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/cart/cart-totals.php in Zeile 409
+

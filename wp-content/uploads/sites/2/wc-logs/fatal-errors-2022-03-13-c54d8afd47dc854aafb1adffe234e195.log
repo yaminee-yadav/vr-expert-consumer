@@ -1,0 +1,36 @@
+2022-03-13T10:32:16+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php(393): the_field('assign_installa...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#5 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php op de lijn 85
+
+2022-03-13T12:46:28+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php(393): the_field('assign_installa...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#5 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php op de lijn 85
+
+2022-03-13T20:36:09+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php(393): the_field('assign_installa...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#5 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php op de lijn 85
+
+2022-03-13T20:36:56+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php(393): the_field('assign_installa...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#5 /home/customer/www/vr-expert-rent in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php op de lijn 85
+

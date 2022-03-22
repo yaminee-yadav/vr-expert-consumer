@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.277" height="15.432" viewBox="0 0 15.277 15.432">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1373" data-name="Rectangle 1373" width="15.277" height="8.062" transform="translate(0 0)" fill="#707070" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_448" data-name="Group 448" transform="translate(-141.985 -402.004)">
+    <g id="Mask_Group_37" data-name="Mask Group 37" transform="translate(157.261 410.066) rotate(-180)" clip-path="url(#clip-path)">
+      <path id="Path_396" data-name="Path 396" d="M10.637,8.522v2.465H0V7.37L1.848,5.426,0,3.474V0L5.243,5.426l-2.974,3.1Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 7.631, -8.308)" fill="#707070" stroke="#707070" stroke-width="0.5"/>
+      <path id="Path_397" data-name="Path 397" d="M6.177,6.9H4V2.2L1.544,4.515,0,2.668,2.931,0H6.177Z" transform="translate(10.563 -5.158) rotate(43)" fill="#707070" stroke="#707070" stroke-width="0.5"/>
+    </g>
+    <path id="Subtraction_63" data-name="Subtraction 63" d="M8.737,7.159H0L.071,0H8.735V7.158Z" transform="translate(145.255 410.127)" fill="#707070" stroke="#707070" stroke-width="0.3"/>
+  </g>
+</svg>

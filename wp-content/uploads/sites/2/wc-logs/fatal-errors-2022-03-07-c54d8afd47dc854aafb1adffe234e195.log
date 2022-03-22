@@ -1,0 +1,4 @@
+2022-03-07T08:01:58+00:00 CRITICAL Cannot redeclare wc_create_new_customer() (previously declared in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-user-functions.php:41) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 2877
+
+2022-03-07T08:02:42+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 929
+

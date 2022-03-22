@@ -1,0 +1,6 @@
+2022-03-02T10:38:06+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 930
+
+2022-03-02T10:52:15+00:00 CRITICAL syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 1795
+
+2022-03-02T12:20:54+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php op de lijn 930
+

@@ -1,0 +1,680 @@
+2022-03-04T06:00:57+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1337
+
+2022-03-04T06:01:05+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1337
+
+2022-03-04T06:05:05+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 78
+
+2022-03-04T06:05:08+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 78
+
+2022-03-04T06:05:11+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 78
+
+2022-03-04T06:48:24+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 958
+
+2022-03-04T09:44:36+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-packages.php on line 526
+
+2022-03-04T09:47:30+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(207): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-04T09:47:51+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(207): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-04T09:47:59+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(207): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-04T09:48:33+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(207): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-04T09:50:35+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1272
+
+2022-03-04T09:50:50+00:00 CRITICAL Uncaught Error: Call to a member function set() on int in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-packages.php:529
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-packages.php on line 529
+
+2022-03-04T11:11:23+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1273
+
+2022-03-04T11:24:06+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/header.php on line 253
+
+2022-03-04T11:40:40+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1093
+
+2022-03-04T12:11:33+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:12:32+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:18:42+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-packages.php on line 668
+
+2022-03-04T12:25:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:25:51+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:26:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:27:55+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:28:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:857
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 857
+
+2022-03-04T12:49:32+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T12:51:17+00:00 CRITICAL syntax error, unexpected ''r' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2254
+
+2022-03-04T13:07:03+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/front-page.php on line 68
+
+2022-03-04T13:32:08+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T13:46:08+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T13:46:08+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T13:46:08+00:00 CRITICAL syntax error, unexpected ''r' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2254
+
+2022-03-04T13:48:23+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:26+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:27+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:28+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:31+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:32+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:38+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:39+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/p in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:48:39+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:49:08+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2760
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2760
+
+2022-03-04T13:51:08+00:00 CRITICAL syntax error, unexpected ''r' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2254
+
+2022-03-04T13:52:38+00:00 CRITICAL syntax error, unexpected ''Update F' (T_ENCAPSED_AND_WHITESPACE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 455
+
+2022-03-04T13:54:09+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-04T13:56:48+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:50+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:50+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:51+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:52+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:54+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:55+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:56+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:56:59+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:57:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:57:08+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:57:12+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:57:15+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:57:16+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:58:08+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:58:09+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T13:58:12+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:58:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:58:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T13:58:21+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:01:39+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T14:01:41+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:01:42+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:01:48+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:01:49+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:01:51+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:01+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:02+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:09+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:20+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:29+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#7 /home/customer/www/vr-expert-rental.com/public_html/ind in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:47+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php:2764
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): create_order_in_booqable_account('')
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-settings.php(578): do_action('init')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-config.php(205): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2764
+
+2022-03-04T14:02:58+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T14:11:01+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:01+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:02+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:04+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:05+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:11+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:11:11+00:00 CRITICAL syntax error, unexpected ')' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2765
+
+2022-03-04T14:13:50+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-04T14:22:51+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-04T14:22:52+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-04T14:38:43+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:44+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:46+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:51+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:51+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:53+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:38:54+00:00 CRITICAL syntax error, unexpected ']' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/custom-functions.php on line 203
+
+2022-03-04T14:39:10+00:00 CRITICAL Uncaught Error: Call to undefined function content_repeat_box() in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-content.php:120
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-content.php on line 120
+

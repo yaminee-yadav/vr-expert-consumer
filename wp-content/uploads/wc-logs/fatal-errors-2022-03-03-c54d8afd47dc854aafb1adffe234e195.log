@@ -1,0 +1,389 @@
+2022-03-03T05:58:18+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-03T05:58:19+00:00 CRITICAL syntax error, unexpected end of file, expecting '(' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 1792
+
+2022-03-03T06:00:36+00:00 CRITICAL syntax error, unexpected '/', expecting end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2283
+
+2022-03-03T06:06:34+00:00 CRITICAL syntax error, unexpected ''Update F' (T_ENCAPSED_AND_WHITESPACE) in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 455
+
+2022-03-03T06:22:26+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2703
+
+2022-03-03T07:11:18+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2261
+
+2022-03-03T07:25:14+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:25:21+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:25:41+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:25:47+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:26:41+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:26:47+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:28:48+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:34:40+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1814): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:35:13+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 1783
+
+2022-03-03T07:35:13+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 1783
+
+2022-03-03T07:35:14+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 1783
+
+2022-03-03T07:44:00+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(204): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1757): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T07:50:51+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-03T07:50:51+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-03T07:50:51+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 2690
+
+2022-03-03T07:55:31+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-03T07:58:10+00:00 CRITICAL syntax error, unexpected ':' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 139
+
+2022-03-03T07:58:16+00:00 CRITICAL syntax error, unexpected ':' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 139
+
+2022-03-03T07:58:22+00:00 CRITICAL syntax error, unexpected ':' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 139
+
+2022-03-03T07:58:25+00:00 CRITICAL syntax error, unexpected ':' in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 139
+
+2022-03-03T08:04:36+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-03T08:10:48+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:10:54+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:11:09+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:11:17+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:11:29+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:12:11+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:12:28+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30146')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:13:29+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:13:37+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:13:43+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:13:45+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30145')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:13:49+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:14:35+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:14:44+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:15:02+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T08:31:32+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T08:34:05+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T08:34:58+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T08:35:52+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T09:32:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php:251
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '') in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/checkout/thankyou.php on line 251
+
+2022-03-03T09:33:30+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T09:37:57+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1084
+
+2022-03-03T09:38:04+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1328
+
+2022-03-03T09:39:20+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 989
+
+2022-03-03T09:40:47+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 703
+
+2022-03-03T09:41:17+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php:263
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1805): get_template_part('template', 'popup-model', Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(303): popup_html('')
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/plugin.ph in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php on line 263
+
+2022-03-03T09:43:49+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-packages.php on line 976
+
+2022-03-03T09:56:19+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 1086
+
+2022-03-03T10:30:45+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-03T10:44:26+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php on line 807
+
+2022-03-03T10:45:05+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/single-events.php on line 807
+
+2022-03-03T12:20:43+00:00 CRITICAL syntax error, unexpected end of file in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php on line 930
+
+2022-03-03T13:35:47+00:00 CRITICAL Uncaught Error: Call to undefined function placeholder_image() in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:66
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 66
+
+2022-03-03T13:37:28+00:00 CRITICAL Uncaught Error: Call to undefined function placeholder_image() in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php:66
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require()
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/customer/...', false)
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/single-product.php(42): wc_get_template_part('content', 'single-product')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#5 /home/customer/www/vr-expert-rental.com/public_html/index.php(17): require('/home/customer/...')
+#6 {main}
+  thrown in /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/woocommerce/content-single-product.php on line 66
+
+2022-03-03T13:37:37+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T13:37:58+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+
+2022-03-03T13:38:29+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php:85
+Stack trace:
+#0 /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php(85): implode(', ', Array)
+#1 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/template-popup-model.php(206): the_field('assign_installa...', '30147')
+#2 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(772): require('/home/customer/...')
+#3 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/template.php(716): load_template('/home/customer/...', false, Array)
+#4 /home/customer/www/vr-expert-rental.com/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /home/customer/www/vr-expert-rental.com/public_html/wp-content/themes/vr-expert/functions.php(1808): in /home/customer/www/vr-expert-rental.com/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 85
+

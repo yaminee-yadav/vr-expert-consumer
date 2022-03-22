@@ -1,0 +1,64 @@
+# Translation of Plugins - Preview E-mails for WooCommerce - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Preview E-mails for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-01 13:49:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Preview E-mails for WooCommerce - Stable (latest release)\n"
+
+#: views/form.php:124
+msgid "Submit"
+msgstr "Verzend"
+
+#: classes/class-woocommerce-preview-emails.php:164
+msgid "Preview Emails"
+msgstr "Bekijk e-mails"
+
+#: views/form.php:44 views/form.php:54
+msgid "Search Orders"
+msgstr "Zoek bestellingen"
+
+#. Plugin URI of the plugin
+msgid "https://www.digamberpradhan.com/preview-e-mails-for-woocommerce/"
+msgstr "https://www.digamberpradhan.com/preview-e-mails-for-woocommerce/"
+
+#. Plugin Name of the plugin
+msgid "Preview E-mails for WooCommerce"
+msgstr "Bekijk e-mails voor WooCommerce"
+
+#: classes/class-woocommerce-preview-emails.php:181
+msgid "Note: E-mails require orders to exist before you can preview them"
+msgstr "Opmerking: voor e-mails moeten bestellingen bestaan voordat je ze kunt bekijken"
+
+#: views/form.php:7 views/form.php:11
+msgid "Choose Email"
+msgstr "Kies e-mail"
+
+#: views/form.php:28 views/form.php:33
+msgid "Choose Order"
+msgstr "Kies bestelling"
+
+#: views/form.php:115
+msgid "Mail to"
+msgstr "Mail naar"
+
+#. Author of the plugin
+msgid "Digamber Pradhan"
+msgstr "Digamber Pradhan"
+
+#. Author URI of the plugin
+msgid "https://digamberpradhan.com/"
+msgstr "https://digamberpradhan.com/"
+
+#. Description of the plugin
+msgid "An Extension for WooCommerce that lets you Preview Emails, without having to send them."
+msgstr "Een extensie voor WooCommerce waarmee je e-mails kunt bekijken zonder ze te hoeven verzenden."
+
+#: classes/class-woocommerce-preview-emails.php:300
+msgid "Back to Admin Area"
+msgstr "Terug naar beheer gebied"
