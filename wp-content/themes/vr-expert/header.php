@@ -375,6 +375,146 @@
             </div>
          </div>
       </header>
+      <!-- bar menu -->
+      <style>
+         .Barmenu-top
+         {
+            background-color:var(--blue);
+         }
+         .info-Menubar
+         {
+            
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    flex-wrap: wrap;
+
+            
+         }
+         .info-Menubar li
+         {
+            
+         
+    color: var(--white);
+
+            
+         }
+         /* mega menu */
+
+         .menu-966 .nav.d-ul ul li.li-menu
+         
+         {
+           padding:0 30px;
+         }
+
+         .menu-966 nav.d-ul ul.menu {
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+         .menu-966 .li-menu.dp-down, 
+         .menu-966 li.dp-down
+         {
+               position: static;
+               
+               
+      
+         }
+    nav.d-ul ul.sub-menu {
+      border-top: 4px solid var(--orange);
+      min-width: 157px;
+    max-width: 100%;
+    background: var(--lightgrey);
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 100%;
+    padding: 11px 0 11px 0px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    padding-top: 0;
+    min-height: 100%;
+    transform: translateY(25px);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+   
+}
+.menu-966 li.dp-down:hover ul.sub-menu
+{
+   display:flex;
+   transform: translateY(0);
+   justify-content: space-between;
+  
+}
+.menu-966  ul.sub-menu .menu-header-dropdown  {
+    width: 31%;
+    text-decoration: none;
+    position: relative;
+    padding: 0 0.7rem 0 0;
+}
+      </style>
+
+<style>
+	.AppGame
+	{
+		margin-bottom:70px;
+	}
+	.Appli-img-txt h2 {
+    font-family: "Poppins-Bold";
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--blue);
+    margin-bottom: 16px;
+}
+	.appUl
+	{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom:60px;
+	}
+	.Appli-img
+	{
+		max-width:650px;
+		width:100%;
+	}
+	.Appli-img-txt
+	{
+		max-width:375px;
+		width:100%;
+	}
+	.AppGtxt p
+	{
+     margin-bottom:15px;
+	}
+	.Appli-img img {
+		max-width: 100%;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+</style>
+      <div class="Barmenu-top">
+         <div class="regular-container">
+
+         <ul class="info-Menubar mid-14">
+              <li>Free delivery</li>
+              <li>Order today, receive tomorrow</li>
+              <li>Expert advice</li>
+         </ul>
+
+         </div>
+      </div>
+      <!-- bar menu end -->
       <!-- tab or mobile menu -->
       <div class="Dsk-hide">
          <div class="mb-menu-wrap prime-background">
