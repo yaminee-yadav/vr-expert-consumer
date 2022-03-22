@@ -26,7 +26,7 @@
 
 
 
-<section class="ab-about-text">
+<section class="ab-about-text querty">
 
   <div class="regular-container">
 
