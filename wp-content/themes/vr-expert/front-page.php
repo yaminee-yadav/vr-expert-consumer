@@ -153,298 +153,36 @@
 </section>
 <!-- section product END -->
 
-<section class="section-step slider-index">
-	<div class="regular-container full-container-banner position-relative">
-		<div class="cr-img position-relative">
-			<div class="cl-240 position-relative">
-				<div class="top-left-img">
-					<svg xmlns="http://www.w3.org/2000/svg" width="449.33" height="451.027" viewBox="0 0 449.33 451.027">
-						<g id="Group_2010" data-name="Group 2010" transform="translate(-6797.77 -2365.749)">
-							<g id="Group_2006" data-name="Group 2006" transform="translate(6798.02 2365.999)">
-								<ellipse id="Ellipse_2217-2" data-name="Ellipse 2217-2" cx="224.415" cy="225.263" rx="224.415" ry="225.263" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="0.5"/>
-							</g>
-							<ellipse id="Ellipse_2218" data-name="Ellipse 2218" cx="194.717" cy="195.565" rx="194.717" ry="195.565" transform="translate(6827.717 2395.697)" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="1"/>
-							<ellipse id="Ellipse_2219" data-name="Ellipse 2219" cx="154.696" cy="155.543" rx="154.696" ry="155.543" transform="translate(6867.74 2435.72)" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="1.5"/>
-						</g>
-					</svg>
-				</div>
-				<div class="flex-normal mb-65 position-relative">
-					<div class="dflex-item col-x-4">
-						<?php if($site_url=="https://vr-expert-rental.com"){ ?>
-						<a href="<?php echo get_site_url(); ?>/product-category/vr-headsets/">
-							<div class="B-target ">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Mask-Group.webp" class="" alt="product-search" >
-							</div>
-							<span class="wnp">VR Headsets</span>
-						</a>
-						<?php } else if($site_url=="https://vr-expert-rental.nl"){ ?>
-							<a href="<?php echo get_site_url(); ?>/produkt-kategorie/vr-brillen/">
-							<div class="B-target ">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Mask-Group.webp" class="" alt="product-search" >
-							</div>
-							<span class="wnp">VR Brillen</span>
-						</a>
-						<?php } ?>
-					</div>
-					<div class="dflex-item col-x-4">
-				    	<?php if($site_url=="https://vr-expert-rental.com"){ ?>
-						<a href="<?php echo get_site_url();?>/product-category/ar-headsets/">
-							<div class="B-target ">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Vr-bril_.webp" class="" alt="product-search" >
-							</div>
-							<span class="wnp">AR Headsets</span>
-						</a>
-						<?php } else if($site_url=="https://vr-expert-rental.nl"){ ?>
-							<a href="<?php echo get_site_url(); ?>/produkt-kategorie/ar-brillen/">
-							<div class="B-target ">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Mask-Group.webp" class="" alt="product-search" >
-							</div>
-							<span class="wnp">AR Brillen</span>
-						</a>
-						<?php } ?>
-					</div>
-					<div class="dflex-item col-x-4">
-						<a href="<?php echo get_site_url();?>/packages/">
-							<div class="B-target ">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/new-com.webp" class="" alt="product-search" >
-							</div>
-							<span class="wnp">Packages</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="index-Banner call-us-section" >
-				<div class="banner-up">
-					<?php if(get_field('contact_us_description')){?>
-					<div class="banner-p">
-						<?php the_field('contact_us_description'); ?>
-					</div>
-					<?php }?>
-					<?php if(get_field('contact_us_cta_link')){?>
-					<a  class="contact-btn medium-txt" href="<?php echo get_site_url(); ?>/contact"><?php the_field('contact_us_cta_link'); ?></a>
-					<?php } ?>
-				</div>
-			</div>
-			<div class="top-right-img">
-				<svg xmlns="http://www.w3.org/2000/svg" width="470.871" height="472.649" viewBox="0 0 470.871 472.649">
-					<g id="Group_2009" data-name="Group 2009" transform="translate(-628.75 -1274.088)">
-						<g id="Group_2008" data-name="Group 2008" transform="translate(629 1274.338)">
-							<g id="Group_2006" data-name="Group 2006" transform="translate(0)">
-								<ellipse id="Ellipse_2217-2" data-name="Ellipse 2217-2" cx="235.185" cy="236.075" rx="235.185" ry="236.075" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="0.5"/>
-							</g>
-							<ellipse id="Ellipse_2218" data-name="Ellipse 2218" cx="204.062" cy="204.951" rx="204.062" ry="204.951" transform="translate(31.123 31.123)" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="1"/>
-							<ellipse id="Ellipse_2219" data-name="Ellipse 2219" cx="162.12" cy="163.008" rx="162.12" ry="163.008" transform="translate(73.067 73.067)" fill="none" stroke="#c2c7e2" stroke-miterlimit="10" stroke-width="1.5"/>
-						</g>
-					</g>
-				</svg>
-				
-			</div>
+<section class="AppGame">
+<div class="regular-container position-relative">
+	 <div class="appUl">
+		 <div class="Appli-img">
+		 <img  src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
+		 </div>
+		 <div class="Appli-img-txt">
+              <h2>Apps & Games</h2>
+			  <div class="AppGtxt regular-txt">
+			  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  </div>
 		</div>
+
+     </div>
+	 <div class="appUl appUlStore">
 		
-		<div class="clearfix"></div>
-		<div class="index-Banner exp-section">
-			<div class="w-958 position-relative">
-				<div id="w-carousel" class="owl-carousel w-100">
-					<?php wp_reset_query();
-						wp_reset_postdata();
-						   $args = array(
-						    'posts_per_page'   => 10,
-						    'post_type'        => 'events',
-						    'order' => 'DESC',
-						   );
-						   $the_query = new WP_Query( $args );
-						    if($the_query->have_posts()){
-						    while($the_query->have_posts()){ $the_query->the_post(); 
-						      $event_id = get_the_ID();
-						      $eventtitle = $post->post_title;
-						      $eventcontent = $post->post_content;
-						    
-						   ?>
-					<div class="item">
-						<div class="Wrap-xslider w-670">
-							<div class="w-319 child-image">
-								<?php  if( has_post_thumbnail() ) {
-									?>
-								<?php	echo $featured_image = get_the_post_thumbnail();?>
-								<?php
-									}else { ?>
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/woocommerce-placeholder.png"  alt="slx"> <?php } ?>
-							</div>
-							<div class="w-319 child-text">
-								<div class="Product-x-text regular-txt">
-									<h2 class="medium-txt"><?php echo mb_strimwidth($eventtitle, 0, 30, '.....'); ?> </h2>
-									<div class="text-amount">
-										<p><?php  echo mb_strimwidth($eventcontent, 0, 199, '.....'); ?></p>
-									</div>
-									<div class="text-right">
-										<a class="regular-txt readmore" href="<?php echo get_permalink($event_id); ?>">Read more></a>
-									</div>
-								</div>
-							</div>
-							<div class="Wrap-xproduct w-155">
-								<ul class="l-pdoucts-list">
-									<?php if(get_field('product_assign', $event_id) ){
-										$i=0;
-										$assignp_ids = get_field('product_assign',$event_id); 
-										foreach($assignp_ids as $assignp_id){	
-										  
-										     $singlelink = get_permalink($assignp_id);
-										     $ev_product = wc_get_product($assignp_id);
-										    $productprice =  $ev_product->get_price(); 
-										     $evntproduct_id = $ev_product->get_id();
-											 $assignProductimg= get_the_post_thumbnail_url($assignp_id);
-										   
-										     if($i<3){ 
-										 ?>
-									<li class="l-pro-li <?php if($assignp_id =='29479' ){ echo"installation_product";} ?>">
-										<div class="l-pro-img">
-										 <?php if($assignProductimg){ ?>
-											<a href="<?php echo $singlelink; ?>">
-											
-											<img src="<?php echo $assignProductimg; ?>" alt="slx">
-											<?php }else { ?>
-												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/woocommerce-placeholder.png"  alt="slx">
-											
-											</a>
-											<?php } ?> 
-										</div>
-										<div class="l-pro-info">
-											<a href="<?php echo $singlelink; ?>">
-												<p  class="regular-txt l-pro-head"><?php echo mb_strimwidth(get_the_title($assignp_id), 0, 20, '.....') ; ?></p>
-												<p class="l-pro-txt"><?php echo mb_strimwidth(get_the_excerpt($assignp_id), 0, 25, '.....'); ?></p>
-												<?php
-													
-													?>
-												<p  class="l-pro-price">From €<?php echo $productprice; ?>/ Day</p>
-											</a>
-											<?php $booqable_product_ids  = get_post_meta($evntproduct_id,'booqable_product_id',true); 
-												if($booqable_product_ids){ ?>
-											<a class="link-cart" href="javascript:void(0)" onclick="open_popup(<?php echo $assignp_id; ?>);">
-												<span class="cart-ist">
-													<svg id="Group_1498" data-name="Group 1498" xmlns="http://www.w3.org/2000/svg" width="18.467" height="14.729" viewBox="0 0 18.467 14.729">
-														<rect id="Rectangle_273" data-name="Rectangle 273" width="12.082" height="1.59" rx="0.795" transform="translate(5.432 10.597)" fill="#fff"></rect>
-														<circle id="Ellipse_64" data-name="Ellipse 64" cx="1.59" cy="1.59" r="1.59" transform="translate(4.478 11.55)" fill="#fff"></circle>
-														<circle id="Ellipse_65" data-name="Ellipse 65" cx="1.59" cy="1.59" r="1.59" transform="translate(14.971 11.55)" fill="#fff"></circle>
-														<rect id="Rectangle_274" data-name="Rectangle 274" width="12.082" height="1.59" rx="0.795" transform="translate(5.379 0) rotate(82)" fill="#fff"></rect>
-														<rect id="Rectangle_275" data-name="Rectangle 275" width="5.405" height="1.59" rx="0.795" transform="translate(0 0.095) rotate(-1)" fill="#fff"></rect>
-														<path id="Path_78" data-name="Path 78" d="M14462-12222.029h13.035l-1.9,7.76h-10.447Z" transform="translate(-14456.573 12223.714)" fill="#fff"></path>
-													</svg>
-												</span>
-											</a>
-											<?php  } else{ ?>
-											<a class="link-cart" href="javascript:void(0);" onclick="add_to_cart(<?php echo $assignp_id; ?>);">
-												<span class="cart-ist">
-													<svg id="Group_1498" data-name="Group 1498" xmlns="http://www.w3.org/2000/svg" width="18.467" height="14.729" viewBox="0 0 18.467 14.729">
-														<rect id="Rectangle_273" data-name="Rectangle 273" width="12.082" height="1.59" rx="0.795" transform="translate(5.432 10.597)" fill="#fff"></rect>
-														<circle id="Ellipse_64" data-name="Ellipse 64" cx="1.59" cy="1.59" r="1.59" transform="translate(4.478 11.55)" fill="#fff"></circle>
-														<circle id="Ellipse_65" data-name="Ellipse 65" cx="1.59" cy="1.59" r="1.59" transform="translate(14.971 11.55)" fill="#fff"></circle>
-														<rect id="Rectangle_274" data-name="Rectangle 274" width="12.082" height="1.59" rx="0.795" transform="translate(5.379 0) rotate(82)" fill="#fff"></rect>
-														<rect id="Rectangle_275" data-name="Rectangle 275" width="5.405" height="1.59" rx="0.795" transform="translate(0 0.095) rotate(-1)" fill="#fff"></rect>
-														<path id="Path_78" data-name="Path 78" d="M14462-12222.029h13.035l-1.9,7.76h-10.447Z" transform="translate(-14456.573 12223.714)" fill="#fff"></path>
-													</svg>
-												</span>
-											</a>
-											<?php  } ?>
-										</div>
-									</li>
-									<?php  
-										$i++;
-										}
-										  
-										     }   
-										
-										   }
-										     ?>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<?php  
-						} 
-						
-						   }
-						   else{
-						   
-						  }
-						  
-						    wp_reset_postdata(); wp_reset_query();
-						  ?>
-				</div>
-			</div>
+		 <div class="Appli-img-txt">
+              <h2>Apps & Games</h2>
+			  <div class="AppGtxt regular-txt">
+			  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  </div>
 		</div>
-		
-	</div>
-</section>
+		<div class="Appli-img">
+		 <img  src="https://vr-expert-rental.com/wp-content/uploads/2022/01/Image-62.png" alt="product-search"> 
+		 </div>
 
-<section class="testimonial-section">
-	<div class="regular-container position-relative">
-		<div class="col-lg-12 col-md-12 col-12 text-center">
-			<?php if(get_field('testimonial_heading')){ ?>
-			<h2 class="h2-heading mb-32"><?php the_field('testimonial_heading'); ?></h2>
-			<?php } ?>
-		</div>
-		<div class="testimonial">
-			<div class="owl-slider">
-				<div id="Testimonial-carousel" class="owl-carousel">
-					<?php 
-						
-						if( get_field('testimonial_repeater') ): ?>
-					<?php while( the_repeater_field('testimonial_repeater') ): ?>
-					<div class="item">
-						<div class="testi-container">
-							<div class="brand-index">
-								<img src="<?php the_sub_field('testimonial_icon'); ?>" class="brand-img" alt="product-search" >
-								<div class="trangle-top-left">
-									<span class="img-comma">
-										<svg xmlns="http://www.w3.org/2000/svg" width="42" height="133" viewBox="0 0 42 133">
-											<text id="_" data-name="“" transform="translate(21 100)" fill="#fff" font-size="95" font-family="Poppins-Medium, Poppins" font-weight="500">
-												<tspan x="-20.235" y="0">“</tspan>
-											</text>
-										</svg>
-									</span>
-								</div>
-							</div>
-							<div class="Testi-Tesxt">
-								<p>
-									<?php the_sub_field('testimonial_description'); ?>
-								</p>
-							</div>
-							<div class="Ao-div">
-								<p class="c-name medium-txt"><?php the_sub_field('testimonial_company'); ?></p>
-								<p class="customer-name regular-txt"><?php the_sub_field('testimonial_person_name'); ?></p>
-							</div>
-						</div>
-					</div>
-				
-					<?php endwhile; ?>
-					<?php endif; wp_reset_postdata(); wp_reset_query(); ?>
-				
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<section class="Brand-section">
-	<div class="dsk-container position-relative">
-		<div class="col-lg-12 col-md-12 col-12 text-center abb">
-			<?php if( get_field('company_work_with_heading') ){?>
-			<h2 class="h2-heading mb-32"><?php  the_field('company_work_with_heading') ?></h2>
-			<?php } ?>
-		</div>
-		<div class="Brand-list">
-			<ul class="logogrid">
-				<?php if( get_field('company_work_with_repeater') ): ?>
-				<?php while( the_repeater_field('company_work_with_repeater') ): ?>
-				<li class="logogrid__item">
-					<img src="<?php the_sub_field('company_icon'); ?>" class="logogrid__img" alt="Coca Cola">
-				</li>
-				<?php endwhile; ?>
-				<?php endif; ?>
-			</ul>
-		</div>
-	</div>
+     </div>
+</div>
 </section>
 
 
