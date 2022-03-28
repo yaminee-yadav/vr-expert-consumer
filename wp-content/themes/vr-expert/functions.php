@@ -41,12 +41,15 @@ function vr_expert_enqueue_styles()
     // wp_dequeue_style('vrexpert_single_page_css');
     }
     wp_enqueue_script('vrexpert_custom_js', get_stylesheet_directory_uri() . '/js/customjs.js', array('jquery'), time(), true);
+    wp_enqueue_script('vrexpert_extra_js', get_stylesheet_directory_uri() . '/js/vr-expert-consumer.js', array(
+        'jquery'
+    ) , '1.1', true);
     $classes = get_body_class();
     
     if(in_array('page-template-template-privacypolicy',$classes)){
     }
 }
-
+add_image_size( 'prod_single_desc', 400, 400, false );
 function register_my_menus()
 {
     register_nav_menus(array(

@@ -1,447 +1,240 @@
-<?php
-  /**
-   * The template for displaying product content in the single-product.php template
-   *
-   * This template can be overridden by copying it to yourtheme/woocommerce/content-single-product.php.
-   *
-   * HOWEVER, on occasion WooCommerce will need to update template files and you
-   * (the theme developer) will need to copy the new files to your theme to
-   * maintain compatibility. We try to do this as little as possible, but it does
-   * happen. When this occurs the version of the template file will be bumped and
-   * the readme will list any important changes.
-   *
-   * @see     https://docs.woocommerce.com/document/template-structure/
-   * @package WooCommerce/Templates
-   * @version 3.6.0
-   */
-  
-  defined( 'ABSPATH' ) || exit;
-  
-  global $product;
-  
-  /**
-   * Hook: woocommerce_before_single_product.
-   *
-   * @hooked woocommerce_output_all_notices - 10
-   */
-  do_action( 'woocommerce_before_single_product' );
-  
-  if ( post_password_required() ) {
-  	echo get_the_password_form(); // WPCS: XSS ok.
-  	return;
-  }
-  ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
-  <div class="single_contain_before">
-    <div class="single_contain_after">
-      <div class="galleryWrapper">
-        <div class="container regular-container position-relative">
-          <div class="galleryContainer">
-            <div class="vr-qw">
-              <div class="vr-breadcrumb">
-                <ul class="breadcrumb--classic">
-                  <?php if ( function_exists('get_breadcrumb') ) { ?>
-                  <li class="regular-txt simple-br">
-                    <?php   get_breadcrumb(); ?>
-                  </li>
-                  <?php  } ?>             
-                </ul>
-              </div>
-            </div>
-            <!-- end bred -->
-            <div class="single-p-wrap">
-              <div class="imageSlider">
-                <div class="product-carousel vr-single-p position-rlative">
-                  <div id="sync1" class="single-element owl-carousel">
-                    <?php
-                      $post_thumbnail = get_post_thumbnail_id(get_the_ID());
-                         $product_image = new WC_product(get_the_ID());
-                         
-                             $attachment_ids = $product_image->get_gallery_image_ids();
-                             if($post_thumbnail){
-                               array_unshift($attachment_ids, $post_thumbnail);
-                             }
-                             
-                         if($attachment_ids ){
-                           foreach( $attachment_ids as $attachment_id ) 
-                           
-                         {
-                           // Display the image URL
-                               $Original_image_url = wp_get_attachment_url( $attachment_id );
-                           ?>
-                    <div class="item image-link">
-                      <a class="image-popup-vertical-fit" href="<?php echo $Original_image_url; ?>" title="9.jpg">
-                      <img src="<?php echo $Original_image_url; ?>" class="" alt="product-search" >
-                      </a>
-                    </div>
-                    <?php  // Display the image URL
-                      // Display Image instead of URL
-                      
-                       }
-                      } else{
-                         ?>
-                    <div class="item image-link">
-                      <a class="image-popup-vertical-fit" href="<?php echo get_stylesheet_directory_uri(); ?>/img/woocommerce-placeholder.png" title="9.jpg">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/woocommerce-placeholder.png" class="" alt="product-search" >
-                      </a>
-                    </div>
-                    <?php } ?>
-                  </div>
-                  <div id="sync2" class="thumbs-style navigation-thumbs owl-carousel">
-                    <?php
-                      $post_thumbnail = get_post_thumbnail_id(get_the_ID());
-                       $product_image = new WC_product(get_the_ID());
-                          $attachment_ids = $product_image->get_gallery_image_ids();
-                          if($attachment_ids ){
-                             if($post_thumbnail){
-                                array_unshift($attachment_ids, $post_thumbnail);
-                              }
-                         foreach( $attachment_ids as $attachment_id ) 
-                       {
-                         // Display the image URL
-                       $Original_image_url = wp_get_attachment_url( $attachment_id );
-                         ?>
-                    <div class="item">
-                      <img src="<?php echo $Original_image_url; ?>" class="" alt="product-search" >
-                    </div>
-                    <?php  // Display the image URL
-                      // Display Image instead of URL
-                      
-                      }
-                      }else { ?><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/woocommerce-placeholder.png" class="" alt="product-search" > <?php }
-                      ?>
-                  </div>
-                </div>
-                <?php
-                  /**
-                   * Hook: woocommerce_before_single_product_summary.
-                   *
-                   * @hooked woocommerce_show_product_sale_flash - 10
-                   * @hooked woocommerce_show_product_images - 20
-                   */
-                  /*
-                  do_action( 'woocommerce_before_single_product_summary' );
-                  */
-                  
-                  
-                  ?>
-              </div>
-              <div class="productSummary">
-                <div class="vr-p-data">
-                  <?php
-                    /**
-                     * Hook: woocommerce_single_product_summary.
-                     *
-                     * @hooked woocommerce_template_single_title - 5
-                     * @hooked woocommerce_template_single_rating - 10
-                     * @hooked woocommerce_template_single_price - 10
-                     * @hooked woocommerce_template_single_excerpt - 20
-                     * @hooked woocommerce_template_single_add_to_cart - 30
-                     * @hooked woocommerce_template_single_meta - 40
-                     * @hooked woocommerce_template_single_sharing - 50
-                     * @hooked WC_Structured_Data::generate_product_data() - 60
-                     */
-                    do_action( 'woocommerce_single_product_summary' );
-                    ?>
-                </div>
-              </div>
-            </div>
-          </div>
+<?php /* Template Name: blog listing*/get_header();?>
+<section class="B-Bog-List">
+  <div class="div-oneloop">
+    <div class="regular-container position-relative">
+      <div class="appUl">
+        <div class="Appli-img">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
         </div>
-      </div>
-      <!-- Extra Cintainer abhn -->
-      <div class="Secnd_conatiner_prod vr-products-tabs" style="display:none;">
-        <div class="width-1206 position-relative">
-          <div class="dvr-tab">
-            <?php
-              /**
-               * Hook: woocommerce_after_single_product_summary.
-               *
-               * @hooked woocommerce_output_product_data_tabs - 10
-               * @hooked woocommerce_upsell_display - 15
-               * @hooked woocommerce_output_related_products - 20
-               */
-              do_action( 'woocommerce_after_single_product_summary' );
-              ?>
+        <div class="Appli-img-txt">
+          <h2>I watched the storm,
+            so beautiful yet terrific.
+          </h2>
+          <div class="AppGtxt regular-txt">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
+          <a class="header-btn" href="#">More &gt;</a>
         </div>
       </div>
     </div>
   </div>
-</div>
-<?php
-  ?>
-<?php do_action( 'woocommerce_after_single_product' ); ?>
-<div class="clearfix"></div>
-<!-- Cst New Website Data -->
-<section class="allEndTabs">
-  <div class="Bc-blue">
-    <div class="regular-container">
-      <ul class="info-tabsbar mid-14">
-        <li class="active"><a  href="#infods">Description</a></li>
-        <li> <a  href="#infosp">Specifications</a></li>
-        <li><a  href="#infoapp">Apps & Games</a></li>
-      </ul>
+  <div class="div-oneloop">
+    <div class="regular-container position-relative">
+      <div class="appUl">
+        <div class="Appli-img">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
+        </div>
+        <div class="Appli-img-txt">
+          <h2>I watched the storm,
+            so beautiful yet terrific.
+          </h2>
+          <div class="AppGtxt regular-txt">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <a class="header-btn" href="#">More &gt;</a>
+        </div>
+      </div>
     </div>
   </div>
-  <div id="tabs-content" class="TabsBox-Txt">
-    <div class="regular-container">
-      <?php $productInfo = get_field('product_description');
-        if($productInfo){ ?>
-      <div id="infods" class="tab-contents">
-        <div class="editor-Pcss">
-          <?php echo $productInfo; ?>
+  <div class="div-oneloop">
+    <div class="regular-container position-relative">
+      <div class="appUl">
+        <div class="Appli-img">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
         </div>
-        <div class="Ublog">
-          <div class="appUl">
-            <div class="Appli-img">
-              <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
-            </div>
-            <div class="Appli-img-txt">
-              <h2>I watched the storm,
-                so beautiful yet terrific.
-              </h2>
-              <div class="AppGtxt regular-txt">
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              </div>
-            </div>
+        <div class="Appli-img-txt">
+          <h2>I watched the storm,
+            so beautiful yet terrific.
+          </h2>
+          <div class="AppGtxt regular-txt">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
-          <!-- items -->
-          <div class="appUl">
-            <div class="Appli-img">
-              <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
-            </div>
-            <div class="Appli-img-txt">
-              <h2>I watched the storm,
-                so beautiful yet terrific.
-              </h2>
-              <div class="AppGtxt regular-txt">
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              </div>
-            </div>
-          </div>
-          <!-- items -->
+          <a class="header-btn" href="#">More &gt;</a>
         </div>
       </div>
-      <?php } ?>
-      <div id="infosp" class="tab-contents">
-        <h2>Product specificaties</h2>
-        <div class="products-dllist">
-          <table class="advanced-tables">
-            <tbody>
-              <tr>
-                <td>Built-in audio</td>
-                <td>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/>
-                  </svg>
-                </td>
-                <td>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                    <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/>
-                  </svg>
-                </td>
-                <td>Display</td>
-                <td>LCD Display</td>
-                <td>CPU</td>
-                <td>Qualcomm XR2</td>
-              </tr>
-              <tr>
-                <td>Built-in audio</td>
-                <td>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/>
-                  </svg>
-                </td>
-                <td>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                    <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/>
-                  </svg>
-                </td>
-                <td>Refesh Rate</td>
-                <td>72-90HZ</td>
-                <td>Geheugen</td>
-                <td>395 g zonder hoofdband 620 g met headstrap</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td>
-                </td>
-                <td>Refesh Rate</td>
-                <td>72-90HZ</td>
-                <td>Geheugen</td>
-                <td>395 g zonder hoofdband 620 g met headstrap</td>
-              </tr>
-              <tr>
-                <td>Refesh Rate</td>
-                <td></td>
-                <td>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td><img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt=""></td>
-                <td>
-                  <img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-                <td>
-                  <img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-                <td>
-                  <img src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-                <td>
-                  <img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-                <td>
-                  <img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-                <td>
-                  <img  src="https://vr-expert.nl/wp-content/uploads/2020/04/VRheadset_icon.png"  alt="">
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    </div>
+  </div>
+  <div class="div-oneloop">
+    <div class="regular-container position-relative">
+      <div class="appUl">
+        <div class="Appli-img">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2022/01/Man-header-home.png" alt="product-search"> 
         </div>
-      </div>
-      <!-- tab2 end  -->
-      <div id="infoapp" class="tab-contents">
-        <div class="products-dllistone">
-          <div class="Acc-Girds-child">
-            <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
-            <div class="Wrap-pdesc">
-              <h2 class="medium-txt">Product name</h2>
-              <div class="PDesc-P regular-txt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                </p>
-                <div class="Cart-VAdd Cart-Vatul"> 
-                  <a class="header-btn" href="#">
-                  More information >
-                  </a>
-                </div>
-              </div>
-            </div>
+        <div class="Appli-img-txt">
+          <h2>I watched the storm,
+            so beautiful yet terrific.
+          </h2>
+          <div class="AppGtxt regular-txt">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
-          <!-- items 1 -->
-          <div class="Acc-Girds-child">
-            <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
-            <div class="Wrap-pdesc">
-              <h2 class="medium-txt">Product name</h2>
-              <div class="PDesc-P regular-txt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                </p>
-                <div class="Cart-VAdd Cart-Vatul"> 
-                  <a class="header-btn" href="#">
-                  More information >
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- items 1 -->
-          <div class="Acc-Girds-child">
-            <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
-            <div class="Wrap-pdesc">
-              <h2 class="medium-txt">Product name</h2>
-              <div class="PDesc-P regular-txt">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                </p>
-                <div class="Cart-VAdd Cart-Vatul"> 
-                  <a class="header-btn" href="#">
-                  More information >
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- items 1 -->
-        </div>
-        <div class="UserLoadmore">
-          <a class="header-btn" href="#">
-          More information >
-          </a>
+          <a class="header-btn" href="#">More &gt;</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Cst New Website Data end -->
-<!-- section Accessoires index -->
-<section class="Accesoires-Home single3" >
+<!-- section hot top 5  -->
+<section class="Hot5-section">
   <div class="regular-container position-relative">
-    <h2 class="Maineach-head">Accesoires ></h2>
-    <div class="Acc-Girds">
-      <div class="Acc-Girds-items">
-        <h2>Accessoire name</h2>
-        <div class="Acc-Girds-desc regular-txt">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-          </p>
-        </div>
-        <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png" >
-        <div class="Cart-Vat">
-          <div class="Cart-Vat-1">
-            <div class="CV-price">€ 999,-</div>
-            <div class="CV-text">
-              Incl. <span>21%<span> VAT
+    <div class="Hot-5">
+      <h2 class="Maineach-head">Top 5 Horror</h2>
+      <div class="products-dllistone">
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <p class="small-text">Adventure - Puzzle</p>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
             </div>
           </div>
-          <div class="Cart-Vat-2">
-            <a class="header-btn" href="#">
-              <span class="svgcart">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                  <path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/>
-                </svg>
-              </span>
-              +
-            </a>
-          </div>
         </div>
-      </div>
-      <!-- items -->
-      <div class="Acc-Girds-items">
-        <h2>Accessoire name</h2>
-        <div class="Acc-Girds-desc regular-txt">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-          </p>
-        </div>
-        <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png" >
-        <div class="Cart-Vat">
-          <div class="Cart-Vat-1">
-            <div class="CV-price">€ 999,-</div>
-            <div class="CV-text">
-              Incl. <span>21%<span> VAT
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <p class="small-text">Adventure - Puzzle</p>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
             </div>
           </div>
-          <div class="Cart-Vat-2">
-            <a class="header-btn" href="#">
-              <span class="svgcart">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                  <path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/>
-                </svg>
-              </span>
-              +
-            </a>
+        </div>
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <p class="small-text">Adventure - Puzzle</p>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="Acc-Girds-items last-each">
-        <a class="rmore" href="#">Read More ></a>
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <p class="small-text">Adventure - Puzzle</p>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- items 1 -->
       </div>
     </div>
   </div>
 </section>
-<!-- section Accessoires index -->
+<!-- section hot top 5  -->
+<!-- section hot top 5 Top 5 etc  -->
+<section class="Hot5-section">
+  <div class="regular-container position-relative">
+    <div class="Hot-5">
+      <h2 class="Maineach-head">Top 5 etc</h2>
+      <div class="products-dllistone wrap-ai">
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- items 1 -->
+        <div class="Acc-Girds-child">
+          <img src="http://localhost/vr-expert-consumer/wp-content/uploads/2021/12/Pico-Neo@2x.png">
+          <div class="Wrap-pdesc">
+            <h2 class="medium-txt">Product name</h2>
+            <div class="PDesc-P regular-txt">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              </p>
+              <div class="Cart-VAdd Cart-Vatul"> 
+                <a class="header-btn" href="#">
+                More information >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- items 1 -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section hot top 5  -->
 <!-- faq div start -->
 <?php if ( function_exists('faqs') ) { ?>
 <?php if(get_field('faqs_left_repeater1') ){ ?>
@@ -779,9 +572,6 @@
 </section>
 <?php }  ?>
 <?php  } ?>  
-<script>
-  jQuery(".vr-p-data .quantity").append('<span class="btn-qty-p" data-id="<?php echo $product->get_id();?>"><button type="button" id="add" class="plus">+</button></span>');
-  jQuery(".vr-p-data .quantity").prepend('<span class="btn-qty-min" data-id="<?php echo $product->get_id();?>"><button type="button" id="sub" class="minus">-</button></span>');
-  jQuery("#input_1_41").val('<?php echo get_the_title($product->get_id()); ?>');
-</script>
 <!-- faq div end -->
+<?php
+  get_footer(); ?>
