@@ -350,7 +350,7 @@
     <!-- bar menu -->
     
     <div class="Barmenu-top">
-      <div class="regular-container">
+      <div class="ex-container">
         <ul class="info-Menubar mid-14">
           <li>Free delivery</li>
           <li>Order today, receive tomorrow</li>
