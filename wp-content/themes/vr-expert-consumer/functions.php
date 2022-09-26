@@ -1497,4 +1497,5 @@ function update_structure_invoice($total,$orders){
 
 add_filter( 'pre_option_woocommerce_default_gateway' . '__return_false', 99 );
 echo"test";
+
 ?>
